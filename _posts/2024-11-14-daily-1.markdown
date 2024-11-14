@@ -13,7 +13,7 @@ Yesterday, I set up this blog using GitHub Pages and Jekyll. Jekyll is a conveni
 
 In parallel, I worked on an interesting lab for my machine learning class, where I explored Amazon Rekognition. This AWS service specializes in image and video analysis, and my task involved creating a custom collection for face recognition. The process began with setting up the SageMaker environment to train the model and create a custom Rekognition collection. Once the collection was ready, I uploaded images and added them to the collection to teach the model about specific individuals. Finally, I tested the system by feeding it a new image and used Rekognition to detect and identify known faces. 
 
-<h2>Building a Cloud-Based ETL Pipeline with AWS Step Functions</h2>
+<h2>Building an ETL Pipeline with Step Functions</h2>
 
 Another significant project this week was for my Cloud Data Analytics class, where I built an ETL pipeline using AWS Step Functions. The goal was to automate the extraction, transformation, and loading of a large dataset. This pipeline integrated several AWS services: Amazon S3 for data storage, AWS Glue for data transformation and cataloging, and Amazon Athena for querying the processed data.
 
