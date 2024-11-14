@@ -5,7 +5,7 @@ date:   2024-11-14 11:09:02 -0500
 categories: update classwork japanese
 ---
 
-![This has a tooltip!](/_site/assets/blog1_asset1.png)
+![This has a tooltip!](assets/images/blog1_asset1.png)
 
 Yesterday, I set up this blog using GitHub Pages and Jekyll. Jekyll is a convenient platform for hosting static content since it pairs well with Pages, working 'out of the box' by not needing a custom workflow set up to build after changes are committed. It will be nice to centralize just about everything I'm doing in one place. Consider this half devblog and half personal blog for the time being. I'm considering cname'ing this to something other than [https://eawever.github.io/], although I may wait until this site has some more content since this isn't costing me anything so far. Getting everything up and running required navigating some stuff that I haven't done in awhile: version control with Git, package installations in Ubuntu, and managing files in a WSL (Windows Subsystem for Linux) terminal.
 
@@ -17,7 +17,7 @@ In parallel, I worked on an interesting lab for my machine learning class, where
 
 Another significant project this week was for my Cloud Data Analytics class, where I built an ETL pipeline using AWS Step Functions. The goal was to automate the extraction, transformation, and loading of a large dataset. This pipeline integrated several AWS services: Amazon S3 for data storage, AWS Glue for data transformation and cataloging, and Amazon Athena for querying the processed data.
 
-![This also has a tooltip!](/_site/assets/step-functions-example.png)
+![This also has a tooltip!](assets/images/step-functions-example.png)
 
 AWS Step Functions played a central role in orchestrating the workflow. I configured the state machine to manage each stage, ensuring that data moved seamlessly from S3 to Glue, where it was cleaned and prepared, and then to Athena for analysis. It helped a bit in getting my head around serverless architecture for building data pipelines in AWS.
 
@@ -25,6 +25,6 @@ AWS Step Functions played a central role in orchestrating the workflow. I config
 
 On a different note, I’ve also been working on improving my Japanese. Up until now, about 90% of my learning has been through Duolingo, which has been great for building a foundational vocabulary and getting a feel for basic grammar structures. However, I’m realizing that to truly progress, I need to move beyond just gamified lessons. 
 
-![This additionally has a tooltip.](/_site/assets/blog1_asset3.jpeg)
+![This additionally has a tooltip.](assets/images/blog1_asset3.jpeg)
 
 Lately, I’ve been watching Japanese videos with Japanese subtitles to get accustomed to native speech patterns and improve my reading skills simultaneously. It’s been challenging but incredibly rewarding when I catch words that I’ve learned. I'm waiting until I learn a little more basic Kanji in my Duolingo lessons to start Anki, but should work that into my routine very soon.
