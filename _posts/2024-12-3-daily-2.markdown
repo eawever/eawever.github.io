@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Status Update #2: 12/3"
-date:   2024-11-14 11:09:02 -0500
+date:   2024-12-3 11:09:02 -0500
 categories: update classwork
 ---
 
