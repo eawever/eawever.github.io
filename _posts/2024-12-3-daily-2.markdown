@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Status Update #2: 12/3"
+date:   2024-11-14 11:09:02 -0500
+categories: update classwork
+---
+
+I started a course on using the OpenAPI specification today. The first module was about understanding the high-level structure of an OpenAPI document, to give me an idea of the need for API documentation and the general function of APIs before actually building anything. I learned how the spec organizes information about an API: details like the available endpoints, parameters, request and response formats, and even how to define basic security features using HTTP.
+
+An important part was learning how to format query parameters, headers, and body content in a way that someone reading the spec could actually understand what’s going on. The course also covered how to define responses with proper status codes and schemes. It also went over the basics of different security solutions available in the spec.
+
+To make it stick, I followed along with the examples in SwaggerHub by creating my own mock API. So far, it's a very basic to-do list app with only one endpoint for showing tasks but I plan to develop it as I continue the course. I went with a basic HTTP protocol for the API.
+
+![Example API image]({{"assets/images/blog2_asset1.png", | relative_url}})
+
+While I was working through the course, I got sidetracked by a linked page about REST architecture. I’ve heard of REST before but hadn’t really gone deep on its principles until now. The page broke down how REST builds on a series of constraints, like the client-server model, stateless communication caching and layered models. Taking from some of these constraints, the stateless nature of REST ensures each request is independent which improves scalability. REST also treats everything as a resource — documents, services, or even concepts — and identifies them through resource identifiers like URLs. These resources are interacted with using representations (like HTML or JSON), which carry both data and metadata. Reading about it helped bridge my understanding of API design and broader system architecture. 
+
+Switching gears, I’ve also been studying for the Civic Literacy Exam, which is the last thing I need to cross off to finish my bachelor’s degree. I decided to cold-take a few practice exams today just to see where I’m at and need to study Supreme Court cases in particular. I was aware of basic political concepts and history in particular since I'm halfway through a long series of lectures on US history through Great Courses, but when it comes to contemporary history and landmark cases, I realized I need to brush up.
