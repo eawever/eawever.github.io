@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Status Update #3: 12/4-5"
+date:   2024-12-6 01:21:02 -0500
+categories: update classwork
+---
+
+Today, I spent some time learning how to set up a simple API, connect it to a database, and manage everything in a development-friendly environment.
+
+<h2>Switching from Node.js to Go</h2>
+I started with a tutorial that used Node.js to build an API connected to MongoDB. While it worked, I ran into some issues on Windows that slowed me down. To fix this, I switched to Windows Subsystem for Linux (WSL), which gave me a smoother experience. While making this change, I also decided to try Go instead of Node.js, both to see if its simplified workflow is useful to me and also because it may be relevant to prospects that I have lined up in the future. Rather than installing MongoDB directly on WSL, I decided to run it in a Docker container. This kept things clean and isolated, and it gave me a chance to work with Docker, something I’ve wanted to practice more.
+
+<h2>Building the API in Go</h2>
+Setting up the API in Go was a great learning experience. Since this was my first time using Go for a real project, I spent time learning how to define structs, handle JSON, and connect to MongoDB. There were some challenges with mapping MongoDB documents to Go structs, but after some trial and error, I got the basic CRUD operations working.
+
+By the end of the day, I had a simple API that could interact with the MongoDB database through Docker, running entirely in WSL.
+
+<h2>Next Steps: OpenAPI Design</h2>
+Now that I have the basic setup working, my next step is to create an OpenAPI specification and align the API with it. Tomorrow, I’ll work on the design-first approach, which should make the API easier to document and more consistent.
