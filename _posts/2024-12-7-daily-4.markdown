@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  "Status Update #4: 12/7"
-date:   2024-12-7 12:43:02 -0500
+date:   2024-12-7 01:21:02 -0500
 ---
-
 <h2>Laying the Groundwork</h2>
 
 Today, I spent some time working on an API for managing music ratings, inspired by platforms like Rate Your Music. The plan is to design it with OpenAPI in a design-first approach and build it in Go using its standard library. The API will handle CRUD operations for albums and user ratings, calculate averages (both simple and weighted), and provide metadata like the total number of ratings. Drafting the OpenAPI spec was trickier than I expected—figuring out how to clearly define endpoints for weighted averages without overcomplicating things took some effort.
 
 Here's a link to it:
-https://app.swaggerhub.com/apis/EVANWEVER_1/test/1.0.0
+<https://app.swaggerhub.com/apis/EVANWEVER_1/test/1.0.0>
 
 <h2>What’s Next?</h2>
 
