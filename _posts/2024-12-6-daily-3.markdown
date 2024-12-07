@@ -2,7 +2,7 @@
 layout: post
 title:  "Status Update #3: 12/4-5"
 date:   2024-12-6 01:21:02 -0500
-categories: update classwork
+categories: update
 ---
 
 Today, I spent some time learning how to set up a simple API, connect it to a database, and manage everything in a development-friendly environment.
