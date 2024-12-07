@@ -2,7 +2,6 @@
 layout: post
 title:  "Status Update #2: 12/3"
 date:   2024-12-3 11:09:02 -0500
-categories: update
 ---
 
 I started a course on using the OpenAPI specification today. The first module was about understanding the high-level structure of an OpenAPI document, to give me an idea of the need for API documentation and the general function of APIs before actually building anything. I learned how the spec organizes information about an API: details like the available endpoints, parameters, request and response formats, and even how to define basic security features using HTTP.

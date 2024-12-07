@@ -2,7 +2,6 @@
 layout: post
 title:  "Status Update #1: 11/11-11/14"
 date:   2024-11-14 11:09:02 -0500
-categories: update classwork japanese
 ---
 
 ![This has a tooltip!]({{"assets/images/blog1_asset1.png", | relative_url}})
