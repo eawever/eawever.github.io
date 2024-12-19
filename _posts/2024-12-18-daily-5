@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Status Update #5: 12/18"
+date:   2024-12-18 10:45:00 -0500
+---
+<h2>Expanding the Vision</h2>
+
+Since the last update, I’ve made quite a bit of progress on the Music Ratings API, and honestly, it feels like the project has started to grow beyond its initial concept. What began as a fairly straightforward API for handling albums and ratings has turned into a more polished system with support for weighted averages, dynamic data generation for testing, and some fine-tuned backend logic. 
+
+A major milestone was getting the frontend up and running with **React** and **Material-UI**. Now, users can interact with the system through a clean UI that displays albums, ratings, and calculated averages. I even added a 5-star rating component to visually represent average scores, which updates dynamically based on real-time data.
+
+![Frontend Screenshot]({{"assets/images/blog5_asset1.png", | relative_url}})
+
+<h2>Smoothing Out the Backend</h2>
+
+The backend has also come a long way. One highlight was adding support for dynamically populating test data. You can specify how many ratings to generate, and the system now ensures that all weights are rounded to two decimal places and scores align to increments of 0.5. This not only cleaned up the test data but also made the API more robust and consistent with real-world use cases.
+
+Another improvement was handling **CORS** issues, which cropped up while integrating the frontend and backend. Setting up middleware with Go’s **Gin** framework solved it, and everything communicates smoothly now. I also worked on error handling and validation to ensure the API rejects invalid inputs gracefully. 
+
+To top it off, I’ve been using **Postman** to test each endpoint thoroughly. It’s been satisfying to see all the routes working as intended.
+
+![Frontend Screenshot]({{"assets/images/blog5_asset2.png", | relative_url}})
+
+<h2>What’s Next?</h2>
+
+I’ll be honest, I got a little carried away with development and added features that weren’t part of the original plan. While it’s been fun to expand the project, it means the OpenAPI spec has fallen out of sync with the actual functionality. My next task is to update the spec so it accurately reflects the current state of the API. I'm also going to work on researching some cloud hosting options for putting a working demo on the internet and dockerizing everything.
