@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Status Update #7: 12/19"
-date:   2024-12-19 22:15:00 -0500
+title:  "Status Update #7: 12/20"
+date:   2024-12-20 22:15:00 -0500
 ---
 <h2>Dockerizing the Application</h2>
 
