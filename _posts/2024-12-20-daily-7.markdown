@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Status Update #7: 12/19"
+date:   2024-12-19 22:15:00 -0500
+---
+<h2>Dockerizing the Application</h2>
+
+Today, I undertook Dockerizing both the frontend and backend of the **Music Ratings API**.
+
+For the backend, I started by creating a `Dockerfile` to build the Go application. Setting up the working directory, installing dependencies, and exposing the server port went off without a hitch. The frontend required a bit more work since it involved building the React app and then serving it with Nginx. I created a multi-stage `Dockerfile` to handle both the build and the static file serving.
+
+Now, I have containerized versions of the app's frontend and backend running locally. It feels like a big step forward, especially since this setup will make it easier to test and deploy the app in different environments. I’m also planning to persist the SQLite database data with Docker volumes to ensure my test data doesn’t get wiped out between runs.
+
+<h2>Mocking Production for External Testing</h2>
+
+Another task I worked on today was trying to trick an external endpoint into thinking my local development environment was a production server. I suspected that a widget from the endpoint was rejecting requests because it was expecting traffic from my production URL instead of my local dev server. To test this theory, I tried setting up a way to make my local server respond as if it were the production address.
+
+I managed to get it working for HTTP by modifying my hosts file and creating a mock environment where the dev server mimicked the production domain. Unfortunately, the widget’s response didn’t change. I then explored HTTPS to see if the lack of a proper certificate was the issue, but the process of creating and managing certificates got complicated. Since this requires more setup and testing, I’ve decided to postpone the HTTPS implementation for now.
+
+<h2>What’s Next?</h2>
+
+Next up, I’ll explore persisting test data for the backend with volumes, so it doesn't get wiped when the containers go down. Additionally, I'm going to research a way to make it easier to simulate multiple environments (e.g., staging, production) within the same local setup, which seems doable with Docker Compose. Additionally, the idea has been floated of forgoing HTTPS mocking altogether and testing the widget in production during off-hours, so we'll see how that goes.
