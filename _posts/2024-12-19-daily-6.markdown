@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Status Update #6: 12/19"
+date:   2024-12-19 21:30:00 -0500
+---
+<h2>A Fresh Start</h2>
+
+Today was about revisiting and refining the OpenAPI spec for the **Music Ratings API**. What I thought would be a straightforward process turned into a bit of a challenge, but it also gave me a chance to think through how everything fits together.
+
+Unfortunately, my usual tool for managing the spec, SwaggerHub, decided not to cooperate. Clicking "Sign In" gave me a cryptic `412: We only support one authentication type at this time` error and promptly redirected me away from the login page. Resetting the password temporarily cleared the error, but neither signing in with Google nor my password worked after that. Clearing site cookies didn’t help either.
+
+<h2>Starting From Scratch</h2>
+
+Without access to my previous spec, I had to rewrite the whole thing from scratch. Revisiting each endpoint did help me clarify some of the descriptions and make sure that the endpoints align with my general idea of how the API should work, a full rewrite was already something that I'd thought of doing - just not so soon.
+
+The process also had me examining at features I’d added recently like dynamically populating test data and restricting scores to increments of 0.5. It took most of the day, but the new spec feels much more polished and up-to-date. 
+
+<h2>Next Steps</h2>
+
+Tomorrow, I plan to start dockerizing the project to streamline deployment and make testing across different environments easier. I also want to revisit some of the frontend features I’ve been working on and clean up any lingering issues. I’ll spend some more time experimenting with ways to dynamically generate sample datasets directly from the frontend, which could be a fun challenge to tie everything together. I think it would also be cool to import a bunch of album data from somewhere and see how to present it cleanly in the UI.
