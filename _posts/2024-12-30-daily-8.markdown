@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Status Update #8: 12/30"
+date:   2024-12-30 21:00:00 -0500
+---
+
+Today started with me struggling through a personal project that just wasn’t clicking. I decided to return to the **Music Ratings API** for a bit. Specifically, I revisited the OpenAPI spec, redefining it in a way that simplifies the structure while also accounting for future feature additions.
+
+One of the key changes was consolidating redundant endpoints and focusing on a unified approach for delivering data. For example, instead of having separate routes for average and weighted ratings, I pivoted to combining this data into a single endpoint for album pages. This not only reduces complexity but also paves the way for a more scalable frontend. Preparing the spec for new features like mock authentication and individual rating details made me realize how much some of the current functionality could be streamlined in the future.
+
+<h2>Planning Ahead</h2>
+
+Now that the spec feels more robust, I’m going to push forward with implementing some of the upcoming features. The next steps will involve adding a mock login system to enable user authentication and introducing visual star graphics to each rating on an album page instead of simply including it for the average. Additionally, I plan to overhaul the way ratings are listed by incorporating randomly generated usernames because it seems fun :D
