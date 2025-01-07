@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Status Update #9: 12/30"
+date:   2024-1-6 21:00:00 -0500
+---
+
+<h2>Diving Into Balatro</h2>
+
+Balatro is a fascinating roguelike deck-builder that’s been capturing my attention for a while now. Its unique mechanics and strategic gameplay have inspired me to create a mod that offers an alternate path for players seeking a more challenging experience. The mod’s goal is to introduce a riskier, high-stakes path with altered mechanics that offer greater rewards—if you can survive the increased difficulty.
+
+Previously, I spent time getting familiar with the game’s source code and studying how other mods interacted with the game. A lot of my initial work revolved around understanding how the UI system functions, as the modding API I’m using is focused primarily on adding cards, consumables, and decks. My mod, on the other hand, delves into core mechanical changes and UI manipulation, which made the learning curve a bit steeper.
+
+<h2>UI Progress and Challenges</h2>
+
+Today, I made solid progress with the UI portion of the mod. I started with a prototype button that allows players to switch into the alternate path which I'd put into the options menu for the time being to debug it. The button was functional, but I wanted it to match the visual style of existing UI elements to maintain a cohesive look and put it where it'll be in the game itself. After some trial and error, I successfully integrated the button into the UI element I’d targeted and aligned its appearance with other buttons in the game.
+
+One of the trickier parts was attempting to make the button greyed out and inaccessible when the player wasn’t on the boss blind—a specific game state where the alternate path becomes available. Unfortunately, this feature is buggy, so it still needs to be worked on.
+
+![Gif demonstrating button function in Balatro]({{"assets/images/blog8_asset1.gif", | relative_url}})
+
+<h2>Transitioning to the Music Ratings API</h2>
+
+After a productive session with the Balatro mod, I shifted gears to work on the **Music Ratings API**. However, the platform I was using for hosting the documentation for the platform was downgraded from a premium trial to a free plan, locking me out of several features that made it pretty infeasible to continue using it.
+
+To solve this, I moved the spec to a GitHub Pages repository. This approach has several advantages: it’s free to host, easily accessible via the internet, and integrates seamlessly with GitHub Actions for automated updates. Now, every time I make changes to the spec in the repository, it will automatically update the hosted version. It’s a straightforward setup, but one that saves me from unnecessary subscription costs while keeping the project accessible and maintainable. Seems like the mocking is broken now that I've moved it off their platform, so I'll need to fix that soon.
+
+Here's a link to the spec:
+https://eawever.github.io/GoMusicAPI_Docs/
+
+<h2>Looking Ahead</h2>
+
+Both the Balatro mod and the Music Ratings API feel like they’re coming together in meaningful ways. For the mod, I’ll focus on refining the button logic and starting to implement the mechanics of the alternate path. On the API side, I plan to resume work on the backend to integrate the mock login system and start fleshing out the individual album pages.
