@@ -24,8 +24,7 @@ After a productive session with the Balatro mod, I shifted gears to work on the 
 
 To solve this, I moved the spec to a GitHub Pages repository. This approach has several advantages: it’s free to host, easily accessible via the internet, and integrates seamlessly with GitHub Actions for automated updates. Now, every time I make changes to the spec in the repository, it will automatically update the hosted version. It’s a straightforward setup, but one that saves me from unnecessary subscription costs while keeping the project accessible and maintainable. Seems like the mocking is broken now that I've moved it off their platform, so I'll need to fix that soon.
 
-Here's a link to the spec:
-https://eawever.github.io/GoMusicAPI_Docs/
+[Here's a link to the spec.](https://eawever.github.io/GoMusicAPI_Docs/)
 
 <h2>Looking Ahead</h2>
 
