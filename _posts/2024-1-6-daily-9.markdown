@@ -6,7 +6,7 @@ date:   2024-1-6 21:00:00 -0500
 
 <h2>Diving Into Balatro</h2>
 
-Balatro is a fascinating roguelike deck-builder that’s been capturing my attention for a while now. Its unique mechanics and strategic gameplay have inspired me to create a mod that offers an alternate path for players seeking a more challenging experience. The mod’s goal is to introduce a riskier, high-stakes path with altered mechanics that offer greater rewards—if you can survive the increased difficulty.
+Balatro is a fascinating roguelike deck-builder that’s been capturing my attention for a while now. It's inspired me to create a mod that offers an alternate paththat introduces a riskier path with altered mechanics that offer greater rewards. [Here's a very rough design doc](https://docs.google.com/document/d/1lRnw1TZsPTrV61MFpGztPo-aFe6kQVzB5K9yC8Vszeo/edit?usp=sharing) if you're interested, but it's not required for understanding this post.
 
 Previously, I spent time getting familiar with the game’s source code and studying how other mods interacted with the game. A lot of my initial work revolved around understanding how the UI system functions, as the modding API I’m using is focused primarily on adding cards, consumables, and decks. My mod, on the other hand, delves into core mechanical changes and UI manipulation, which made the learning curve a bit steeper.
 
@@ -29,4 +29,4 @@ https://eawever.github.io/GoMusicAPI_Docs/
 
 <h2>Looking Ahead</h2>
 
-Both the Balatro mod and the Music Ratings API feel like they’re coming together in meaningful ways. For the mod, I’ll focus on refining the button logic and starting to implement the mechanics of the alternate path. On the API side, I plan to resume work on the backend to integrate the mock login system and start fleshing out the individual album pages.
+Both the Balatro mod and the Music Ratings API feel like they’re coming together in meaningful ways. For the mod, I’ll focus on refining the button logic and starting to implement the mechanics of the alternate path. On the API side, I plan to resume work on the backend to integrate the mock login system and start fleshing out the individual album pages after adding it to my spec.
