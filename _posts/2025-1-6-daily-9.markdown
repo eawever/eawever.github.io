@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Status Update #9: 1/6"
-date:   2024-1-6 21:00:00 -0500
+date:   2025-1-6 21:00:00 -0500
 ---
 
 <h2>Diving Into Balatro</h2>
