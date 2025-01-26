@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Status Update #10: 1/25"
+date:   2025-1-25 21:00:00 -0500
+---
+
+<h2>Learning Through AWS Cloud Quest</h2>
+
+Today was all about diving deeper into AWS Cloud Quest, which has been a fun and interactive way to build my cloud computing skills. I focused on two main areas: **Cloud First Steps** and **Computing Solutions**.
+
+In **Cloud First Steps**, the challenge was to stabilize the island's failing computational modules by improving reliability and availability. This required deploying Amazon EC2 instances across multiple Availability Zones, a process that highlighted the benefits of AWS infrastructure—like its global reach, scalability, and redundancy. It was a great exercise in understanding how AWS Regions and Availability Zones work together to ensure high availability.
+
+The **Computing Solutions** scenario was equally engaging. I worked on vertically scaling an Amazon EC2 instance for a school’s scheduling server that needed more memory. This involved exploring EC2 instance families and types, which are tailored for different workloads. The task also brought in concepts like horizontal and vertical scaling and options for connecting to EC2 instances, all of which deepened my understanding of AWS’s versatility.
+
+<h2>Cloning Repositories on the Go</h2>
+
+As part of my day, I also found myself traveling and setting up my laptop for development work. This meant cloning a lot of my repositories from GitHub. It was a good reminder of how handy version control systems are, especially when juggling separate instances of the same repository on different devices.
+
+Using `git clone` to pull down clean versions of my repos onto my laptop felt seamless, and being able to sync changes between my desktop and laptop is always satisfying. Version control lets me work independently on each machine, with confidence that changes can be merged back into a single cohesive project. It’s also helpful when working on feature branches, as I can address bugs or features on one machine while testing and deploying on another.
+
+<h2>Looking Ahead</h2>
+
+AWS Cloud Quest has been a great learning experience so far, and I’m looking forward to diving into the next set of challenges. The scenarios do a great job of combining theoretical knowledge with practical application, making cloud concepts stick in a meaningful way.
+
+For my repositories, I’ll continue organizing and syncing them as I prepare for upcoming travel. It’s nice to know I can always rely on version control to keep my work flowing smoothly, no matter where I am. If you haven’t explored tools like Git for your projects, I highly recommend them—they’re game-changers for both collaboration and solo development.
