@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Status Update #11: 1/28"
+date:   2025-1-28 21:00:00 -0500
+---
+
+<h2>Waiting on Project Updates</h2>
+
+I spent some time getting a local copy of a client website up and running. This involved setting up the database and configuring it with SQL Express. The setup process went smoothly, and I now have the site functioning locally, but there’s not much I can do on my end until we get some updates from the client.
+
+<h2>Focusing on AWS Certification</h2>
+
+Since I’ve hit a pause on that project, I’m shifting focus to something that’s entirely in my control: **getting my AWS Cloud Practitioner certification**. I want to take the exam as soon as possible because it’s a clear, actionable credential that strengthens my resume, and the preparation is self-guided, which makes it easy to work on alongside everything else.
+
+I’ve been running through practice exam questions and making notes on anything I don’t already know from my previous AWS courses.
+
+For example, I came across a question comparing **AWS Trusted Advisor and AWS CloudTrail**. Trusted Advisor helps optimize cloud usage by providing recommendations for security, performance, fault tolerance, and cost savings, while CloudTrail is more focused on governance, compliance, and logging API activity within an AWS account. I knew the general purpose of both services but hadn’t thought about how their use cases differ. Reviewing these kinds of distinctions has been helpful in refining my understanding of AWS’s broader ecosystem.
+
+<h2>Building AWS-Focused Side Projects</h2>
+
+Beyond just passing the exam, I want to **build AWS-related side projects** to strengthen my GitHub profile and make myself a better candidate for cloud-related roles. One project that caught my attention is the **Cloud Resume Challenge** ([cloudresumechallenge.dev](https://cloudresumechallenge.dev/docs/the-challenge/aws/)). It’s a hands-on project that involves deploying a resume website using AWS services like S3, Lambda, and DynamoDB. This seems like a great way to reinforce my cloud skills while also creating something tangible that I can showcase.
+
+I haven’t fully mapped out what my AWS projects will be yet, but the **Cloud Resume Challenge** feels like a great place to start. I’d also like to build something that integrates **serverless computing** since that’s a major focus in cloud development. Maybe a simple app that leverages **API Gateway + Lambda + DynamoDB**, or even a cost-effective personal project using **AWS Free Tier** services.
+
+<h2>Next Steps</h2>
+
+Right now, my priorities are pretty clear:
+- **Pass the AWS Cloud Practitioner exam** ASAP.
+- **Start working on AWS-focused side projects** that add depth to my portfolio.
+- **Keep an eye on the client project** and be ready to jump back in once we get a response.
