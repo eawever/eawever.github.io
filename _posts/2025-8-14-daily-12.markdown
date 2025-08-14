@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Status Update #12: 8/14"
-date:   2025-8-14 21:00:00 -0500
+date:   2025-8-14 14:00:00 -0800
 ---
 
 <h2>Picking Back Up</h2>
