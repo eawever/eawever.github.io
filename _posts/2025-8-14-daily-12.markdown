@@ -26,7 +26,7 @@ One of the systems I’ve set up during this time is a **spreadsheet of every po
 
 Alongside that, I’ve built a **daily job search checklist**—a spreadsheet that lists every site I want to check for openings each day. This includes job boards, company career pages, and niche industry sites. Running through the list each morning keeps the search consistent and ensures I’m not missing any opportunities.
 
-![Spreadsheet]({{"assets/images/blog10_asset2.gif", | relative_url}})
+![Spreadsheet]({{"assets/images/blog10_asset2.png", | relative_url}})
 
 <h2>Looking Ahead</h2>
 
