@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Status Update #13: 1/26/2026"
+date:   2026-01-26 21:00:00 -0500
+---
+
+<h2>Mentor Outreach</h2>
+
+Today I reached out to a mentor I previously worked with to ask about possible follow-up internship opportunities. I have not received a response yet, but sending the message was an important step in continuing my job search and maintaining professional connections.
+
+<h2>Selecting Open Source Projects</h2>
+
+I also spent time identifying open-source projects that would be a good fit for my background. Through my mentorship experience contributing to Red Hat OpenStack, I became familiar with large, long-lived infrastructure projects that rely on clear review processes, strong documentation, and active contributor communities. With that in mind, I looked for projects with similar characteristics and strong contributor onboarding.
+
+![notes]({{"assets/images/blog12_asset2.png", | relative_url}})
+
+**Django** stood out because of its maturity, extensive documentation, and emphasis on well-defined contribution workflows. I initially encountered Django while reviewing widely used Python frameworks and was drawn to its clear governance model and active discussion spaces. I read several threads in GitHub Discussions to understand common contributor questions and recurring issues, and I joined the Django Discord and the official Django Forum to follow ongoing technical and design discussions.
+
+![Forum]({{"assets/images/blog12_asset1.png", | relative_url}})
+
+**QEMU** stood out for different but related reasons. My OpenStack experience exposed me to virtualization concepts and low-level systems tooling, which made QEMU a natural project to explore further. I found QEMU while researching core virtualization components used in cloud infrastructure and was interested in its close ties to enterprise Linux and large-scale systems development. I reviewed GitHub Discussions and recent issues, subscribed to the qemu-devel mailing list, and joined their IRC channel to better understand how development and review are handled.
