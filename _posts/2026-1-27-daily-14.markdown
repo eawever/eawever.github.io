@@ -4,14 +4,16 @@ title:  "Status Update #14: 1/27/2026"
 date:   2026-01-27 21:00:00 -0500
 ---
 
-Follow-Up Communication
+<h1>Follow-Up Communication</h1>
 
 Since I had not heard back from my mentor, I sent a brief follow-up email today. I kept the message professional and concise, reiterating my interest in internship or mentorship opportunities while being respectful of their time.
 
-Continued Django Review
+<h1>Continued Django Review</h1>
 
 I continued reviewing Django community discussions, focusing on GitHub Discussions and forum threads related to documentation, contributor onboarding, and issue triage. These conversations provided useful insight into how maintainers guide new contributors and how work is typically scoped for first contributions.
 
-Continued QEMU Review
+![notes]({{"assets/images/blog12_asset4.png", | relative_url}})
+
+<h1>Continued QEMU Review</h1>
 
 I also spent more time reading through the QEMU mailing list and observing conversations on IRC. While the discussions are highly technical, they clearly demonstrate expectations around patch structure, testing, and review etiquette. This helped me better understand what would be required before submitting any contributions of my own.
