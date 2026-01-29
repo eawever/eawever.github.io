@@ -4,16 +4,20 @@ title:  "Status Update #14: 1/28/2026"
 date:   2026-01-28 21:00:00 -0500
 ---
 
-<h1>Career Guidance</h1>
+<h2>Career Guidance</h2>
 
 Today I visited a job center and met with an adviser who provided guidance on career development. We discussed using **LinkedIn** more effectively by engaging with its social features, such as connecting with peers, alumni, and professionals in related roles, rather than focusing only on direct job applications. I plan on visiting another hiring center as soon as next week.
 
 ![notes]({{"assets/images/blog12_asset3.png", | relative_url}})
 
-<h1>Interview Preparation</h1>
+<h2>Interview Preparation</h2>
 
 The adviser also helped me with interview preparation, particularly answering behavioral questions using the **STAR method**. Practicing this structure highlighted areas where I can improve clarity and focus when describing past experiences.
 
-<h1>Next Steps</h1>
+<h2>Next Steps</h2>
 
 Moving forward, I plan to focus more heavily on contributing to open-source projects. My next steps include learning best practices for submitting high-quality pull requests and setting up local development environments for the projects I have chosen. These steps should help me transition from observation to active contribution.
+
+<h2>AWS Solution Architect Study Progress</h2>
+
+Today I focused on S3 security concepts, including bucket policies, IAM permissions, and access control mechanisms. I reviewed best practices for securing data at rest and in transit, as well as common misconfiguration risks and how to prevent unintended public access.

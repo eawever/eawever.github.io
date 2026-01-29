@@ -19,3 +19,9 @@ I also spent time identifying open-source projects that would be a good fit for 
 ![Forum]({{"assets/images/blog12_asset1.png", | relative_url}})
 
 **QEMU** stood out for different but related reasons. My OpenStack experience exposed me to virtualization concepts and low-level systems tooling, which made QEMU a natural project to explore further. I found QEMU while researching core virtualization components used in cloud infrastructure and was interested in its close ties to enterprise Linux and large-scale systems development. I reviewed GitHub Discussions and recent issues, subscribed to the qemu-devel mailing list, and joined their IRC channel to better understand how development and review are handled.
+
+<h2>AWS Solution Architect Study Progress</h2>
+
+I have previously completed the full AWS Solutions Architect course, but it has been some time since I last reviewed the material. Before scheduling the certification exam, I am revisiting key sections and focusing on weak areas identified through a recent practice exam.
+
+Today I studied EC2 storage options, focusing on the differences between instance store and EBS volumes. I reviewed use cases for various EBS volume types, persistence characteristics, and how storage choices affect availability, performance, and recovery strategies.
