@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Status Update #18: 2/9/2026"
+date:   2026-02-09 21:00:00 -0500
+---
+
+<h2>Narrowing Down Idealist Opportunities</h2>
+
+Today I focused on narrowing down which Idealist opportunities I may pursue actively. The UniversalGiving AWS role remains the most aligned with my current technical direction, particularly as I prepare for certification. The responsibility to evaluate AWS accounts for cost efficiency mirrors many of the cost optimization case studies in my coursework.
+
+I also revisited the Fullstack and Mobile Developer listing to evaluate feasibility. The stack includes technologies I would need to ramp up on quickly, but the opportunity to work on an education-focused platform is compelling. The VEX Robotics competition volunteer role is still appealing as a shorter-term engagement that could expand my local network.
+
+<h2>Django Contribution Review and AWS Security Study</h2>
+
+In addition, I continued working within my Django development environment. I ran additional tests, reviewed documentation on contributing guidelines, and examined how pull requests are structured. I kept up with my AWS course as well, reviewing S3 security practices including bucket policies and IAM controls.

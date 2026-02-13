@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Status Update #20: 2/12/2026"
+date:   2026-02-12 21:00:00 -0500
+---
+
+<h2>SF Civic Tech Onboarding</h2>
+
+Yesterday, on February 11, I joined a Zoom onboarding call for SF Civic Tech. The organizer introduced the structure of the community and current active projects. I expressed interest in the SafeHome project, which is building a web platform to help San Francisco residents assess earthquake risk by address. The need for a front-end developer using React and NextJS aligns well with my interest in structured, production-oriented contribution work.
+
+![notes]({{"assets/images/blog20_asset1.png", | relative_url}})
+
+<h2>SafeHome Project Alignment</h2>
+
+SafeHome’s focus on scalability, performance, and integration with mapping tools makes it a technically meaningful civic project. The role involves collaboration with designers and backend developers, code reviews, and architectural input, which would provide structured experience similar to what I valued in my OpenStack mentorship.
+
+<h2>Continued Technical Development</h2>
+
+I am continuing to maintain my Django development setup and monitor beginner-friendly issues so that I can begin contributing soon. At the same time, I am keeping pace with my AWS Solutions Architect review, reinforcing storage, DNS routing, and S3 security principles. Balancing certification preparation with active community involvement remains a central focus.

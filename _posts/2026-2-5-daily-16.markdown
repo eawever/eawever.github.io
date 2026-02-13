@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Status Update #16: 2/5/2026"
+date:   2026-02-05 21:00:00 -0500
+---
+
+<h2>Signing Up for Idealist</h2>
+
+Today I signed up for Idealist to broaden my search for volunteer and pro bono technical opportunities. I wanted a platform focused specifically on nonprofit and mission-driven work, especially roles where I could apply my AWS and backend experience. After setting up my profile, I began filtering for remote technical roles aligned with infrastructure, cloud, or full-stack development.
+
+![notes]({{"assets/images/blog16_asset1.png", | relative_url}})
+
+<h2>Reviewing Potential Opportunities</h2>
+
+One opportunity that stood out was the AWS Engineer Pro Bono role with UniversalGiving. The focus on AWS cost optimization and account review directly aligns with my ongoing AWS Solutions Architect exam preparation. The responsibilities around monitoring performance, minimizing storage and traffic costs, and reviewing security practices match areas I have been studying recently.
+
+I also identified two additional opportunities to consider. The first is a Fullstack and Mobile Developer role focused on educational technology using Golang, Next.js, GraphQL, Kotlin, and Swift. While the stack is broader than my current experience, I am particularly interested in the backend architecture aspects. The second is volunteering at VEX V5 Robotics competitions in Milpitas, which would allow me to contribute locally to STEM education.
+
+<h2>Django Environment Setup and AWS Review</h2>
+
+In parallel, I set up a local Django development environment to begin testing issues and understanding the framework internally. I cloned the repository, reviewed setup documentation, and confirmed that I could run the test suite successfully. I also continued reviewing EC2 storage and architectural trade-offs in my AWS course to reinforce core infrastructure concepts.

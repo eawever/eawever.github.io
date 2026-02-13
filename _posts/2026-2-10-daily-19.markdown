@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Status Update #19: 2/10/2026"
+date:   2026-02-10 21:00:00 -0500
+---
+
+<h2>Preparing for Contribution</h2>
+
+Today I concentrated on preparation rather than applications. I refined my understanding of how Django structures pull requests and issue discussions so that when I submit my first contribution, it meets project standards. Establishing a reliable local development workflow has reduced friction and increased my confidence in testing changes.
+
+<h2>Strengthening AWS Cost Knowledge</h2>
+
+I also revisited the UniversalGiving AWS listing to assess where I might need stronger hands-on examples. Since the role emphasizes cost management and monitoring, I reviewed AWS billing dashboards and cost explorer concepts within my course materials. Strengthening this area will support both certification and potential volunteer work.
+
+![notes]({{"assets/images/blog19_asset1.png", | relative_url}})
